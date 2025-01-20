@@ -74,3 +74,13 @@ Foram disponibilidados na raiz desse projeto arquivos de "collection" e "environ
 
 ## Considerações Finais
 Este sistema foi desenvolvido com foco em segurança e desempenho, utilizando boas práticas como a criptografia de senhas e a autenticação via token. A implementação de testes automatizados garante que as funcionalidades sejam validadas de forma contínua. A estrutura modular do código facilita a manutenção e a expansão do sistema.
+
+php artisan make:model {Model}
+php artisan make:controller {Name}Controller
+php artisan make:seeder {Name}Seeder
+php artisan make:migration create_flights_table
+
+php artisan make:resource UserResource
+php artisan make:request
+
+https://celke.com.br/artigo/como-usar-seeder-no-laravel-10
